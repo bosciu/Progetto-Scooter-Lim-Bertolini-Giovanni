@@ -1,87 +1,92 @@
-body{
-  box-sizing: border-box;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+body {
+    box-sizing: border-box;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.main-container{
-  margin: auto;
-  width: 65%;
-  background-color: #000000bd;
-  border-radius: 5%;
+.main-container {
+    margin: auto;
+    width: 65%;
+    background-color: #000000bd;
+    border-radius: 5%;
 }
 
-img{
-  display: block;
-  width: 25%;
-  height: auto;
-  margin: auto;
-  padding:3%;
+img {
+    display: block;
+    width: 25%;
+    margin: auto;
+    padding: 3%;
 }
 
-h2{
-  text-align: center;
-  color: #00dd00;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  margin: 1%;
+h2 {
+    text-align: center;
+    color: #00dd00;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 1%;
 }
 
-section{
-  display: flex;
-  justify-content: center;
-  background-color: #00dd00;
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #00dd00;
 }
 
-button{
-  margin: 1%;
+button {
+    margin: 1%;
 }
 
-span, p{
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+span,
+.margin {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
-section, main{
-  margin: auto;
-  margin-top: 2%;
-  width: 80%;
+nav,
+main {
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
 }
 
-.first-bar{
-  border-radius: 15px;
-  background: #f5b453;
-  padding: 20px;
-  width: 350px;
-  height: 40px;
+.margin {
+    margin: 1em;
 }
 
-.second-bar{
-  border-radius: 15px;
-  background: #1ec31e;
-  padding: 20px;
-  width: 650px;
-  height: 40px;
+.first-bar {
+    border-radius: 15px;
+    background: #f5b453;
+    padding: 20px;
+    width: 350px;
+    height: 40px;
 }
 
-.third-bar{
-  border-radius: 15px;
-  background: #be4141;
-  padding: 20px;
-  width: 175px;
-  height: 40px;
+.second-bar {
+    border-radius: 15px;
+    background: #1ec31e;
+    padding: 20px;
+    width: 650px;
+    height: 40px;
 }
 
-.charge-state{
-  margin-bottom: 0px;
+.third-bar {
+    border-radius: 15px;
+    background: #be4141;
+    padding: 20px;
+    width: 175px;
+    height: 40px;
 }
 
-#end{
-  height: 100px;
+.charge-state {
+    margin-bottom: 0px;
 }
 
-*{
-  box-sizing: border-box;
+#end {
+    height: 100px;
+}
+
+* {
+    box-sizing: border-box;
 }
