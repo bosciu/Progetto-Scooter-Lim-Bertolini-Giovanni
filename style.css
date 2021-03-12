@@ -1,8 +1,9 @@
 body {
-    box-sizing: border-box;
     background-image: url("background.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .main-container {
@@ -52,14 +53,14 @@ main {
 }
 
 .margin {
-    margin: 1em;
+    margin: 1em 0em;
 }
 
 .first-bar {
     border-radius: 15px;
     background: #f5b453;
     padding: 20px;
-    width: 350px;
+    width: 35%;
     height: 40px;
 }
 
@@ -67,7 +68,7 @@ main {
     border-radius: 15px;
     background: #1ec31e;
     padding: 20px;
-    width: 650px;
+    width: 65%;
     height: 40px;
 }
 
@@ -75,12 +76,9 @@ main {
     border-radius: 15px;
     background: #be4141;
     padding: 20px;
-    width: 175px;
+    width: 18%;
     height: 40px;
-}
-
-.charge-state {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 #end {
